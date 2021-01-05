@@ -4,7 +4,7 @@
   "description": "Website dedicated to succulent topics.<br><br> website: https://poluna.github.io/succulent-garden/ <br><br>",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
