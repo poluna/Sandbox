@@ -4,7 +4,7 @@
   "description": "Website dedicated to succulent topics.<br><br> website: https://poluna.github.io/succulent-garden/ <br><br>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,12 @@
   "homepage": "https://github.com/poluna/succulent-garden#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1"
+    "gulp-autoprefixer": "^7.0.1",
+    "jest": "^27.1.0"
   },
-  "browserslist": ["last 2 versions"]
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "dependencies": {},
+  "keywords": []
 }
